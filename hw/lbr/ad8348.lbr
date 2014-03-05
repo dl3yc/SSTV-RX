@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -134,8 +134,8 @@ RU-28</description>
 <pin name="IFIN" x="-12.7" y="12.7" length="short" direction="in"/>
 <pin name="MXIP" x="-12.7" y="5.08" length="short" direction="in"/>
 <pin name="MXIN" x="-12.7" y="0" length="short" direction="in"/>
-<pin name="VGIN" x="-12.7" y="-20.32" length="short" direction="in"/>
-<pin name="ENVG" x="-12.7" y="-22.86" length="short" direction="in"/>
+<pin name="VGIN" x="-12.7" y="-22.86" length="short" direction="in"/>
+<pin name="ENVG" x="-12.7" y="-20.32" length="short" direction="in"/>
 <pin name="LOIP" x="-12.7" y="-7.62" length="short" direction="in"/>
 <pin name="LOIN" x="-12.7" y="-12.7" length="short" direction="in"/>
 <pin name="IMXO" x="12.7" y="17.78" length="short" direction="out" rot="R180"/>
@@ -175,41 +175,41 @@ RU-28</description>
 <devicesets>
 <deviceset name="AD8348">
 <gates>
-<gate name="G$1" symbol="IQMIX" x="-35.56" y="5.08"/>
-<gate name="G$2" symbol="OBUF" x="2.54" y="2.54"/>
-<gate name="G$3" symbol="PWR" x="40.64" y="2.54"/>
+<gate name="M" symbol="IQMIX" x="-35.56" y="5.08"/>
+<gate name="B" symbol="OBUF" x="2.54" y="2.54"/>
+<gate name="P" symbol="PWR" x="40.64" y="2.54"/>
 </gates>
 <devices>
 <device name="" package="TSSOP28">
 <connects>
-<connect gate="G$1" pin="ENVG" pad="24"/>
-<connect gate="G$1" pin="IFIN" pad="10"/>
-<connect gate="G$1" pin="IFIP" pad="11"/>
-<connect gate="G$1" pin="IMXO" pad="8"/>
-<connect gate="G$1" pin="IOFS" pad="13"/>
-<connect gate="G$1" pin="LOIN" pad="28"/>
-<connect gate="G$1" pin="LOIP" pad="1"/>
-<connect gate="G$1" pin="MXIN" pad="19"/>
-<connect gate="G$1" pin="MXIP" pad="18"/>
-<connect gate="G$1" pin="QMXO" pad="21"/>
-<connect gate="G$1" pin="QOFS" pad="16"/>
-<connect gate="G$1" pin="VCMO" pad="5"/>
-<connect gate="G$1" pin="VGIN" pad="17"/>
-<connect gate="G$2" pin="IAIN" pad="6"/>
-<connect gate="G$2" pin="IOPN" pad="3"/>
-<connect gate="G$2" pin="IOPP" pad="4"/>
-<connect gate="G$2" pin="QAIN" pad="23"/>
-<connect gate="G$2" pin="QOPN" pad="26"/>
-<connect gate="G$2" pin="QOPP" pad="25"/>
-<connect gate="G$3" pin="COM1" pad="27"/>
-<connect gate="G$3" pin="COM2" pad="9"/>
-<connect gate="G$3" pin="COM3@0" pad="7"/>
-<connect gate="G$3" pin="COM3@1" pad="22"/>
-<connect gate="G$3" pin="ENBL" pad="15"/>
-<connect gate="G$3" pin="VPOS1" pad="2"/>
-<connect gate="G$3" pin="VPOS2" pad="12"/>
-<connect gate="G$3" pin="VPOS3" pad="20"/>
-<connect gate="G$3" pin="VREF" pad="14"/>
+<connect gate="B" pin="IAIN" pad="6"/>
+<connect gate="B" pin="IOPN" pad="3"/>
+<connect gate="B" pin="IOPP" pad="4"/>
+<connect gate="B" pin="QAIN" pad="23"/>
+<connect gate="B" pin="QOPN" pad="26"/>
+<connect gate="B" pin="QOPP" pad="25"/>
+<connect gate="M" pin="ENVG" pad="24"/>
+<connect gate="M" pin="IFIN" pad="10"/>
+<connect gate="M" pin="IFIP" pad="11"/>
+<connect gate="M" pin="IMXO" pad="8"/>
+<connect gate="M" pin="IOFS" pad="13"/>
+<connect gate="M" pin="LOIN" pad="28"/>
+<connect gate="M" pin="LOIP" pad="1"/>
+<connect gate="M" pin="MXIN" pad="19"/>
+<connect gate="M" pin="MXIP" pad="18"/>
+<connect gate="M" pin="QMXO" pad="21"/>
+<connect gate="M" pin="QOFS" pad="16"/>
+<connect gate="M" pin="VCMO" pad="5"/>
+<connect gate="M" pin="VGIN" pad="17"/>
+<connect gate="P" pin="COM1" pad="27"/>
+<connect gate="P" pin="COM2" pad="9"/>
+<connect gate="P" pin="COM3@0" pad="7"/>
+<connect gate="P" pin="COM3@1" pad="22"/>
+<connect gate="P" pin="ENBL" pad="15"/>
+<connect gate="P" pin="VPOS1" pad="2"/>
+<connect gate="P" pin="VPOS2" pad="12"/>
+<connect gate="P" pin="VPOS3" pad="20"/>
+<connect gate="P" pin="VREF" pad="14"/>
 </connects>
 <technologies>
 <technology name=""/>
