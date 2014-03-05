@@ -21,3 +21,7 @@
 *.s#*
 *.b#*
 *.l#*
+
+# LTSpice
+*.log
+*.raw
