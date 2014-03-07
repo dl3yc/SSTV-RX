@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -249,38 +249,38 @@ Source: www.analog.com .. 3832984220209AD8133_0.pdf</description>
 <devicesets>
 <deviceset name="ADF4360">
 <gates>
-<gate name="G$1" symbol="PLL" x="-25.4" y="0"/>
-<gate name="G$2" symbol="VCO" x="7.62" y="0"/>
-<gate name="G$3" symbol="PWR" x="38.1" y="0"/>
+<gate name="D" symbol="PLL" x="-25.4" y="0"/>
+<gate name="A" symbol="VCO" x="7.62" y="0"/>
+<gate name="P" symbol="PWR" x="38.1" y="0"/>
 </gates>
 <devices>
 <device name="" package="LFCSP24">
 <connects>
-<connect gate="G$1" pin="CLK" pad="17"/>
-<connect gate="G$1" pin="CP" pad="24"/>
-<connect gate="G$1" pin="DATA" pad="18"/>
-<connect gate="G$1" pin="DIVOUT" pad="20"/>
-<connect gate="G$1" pin="LD" pad="23"/>
-<connect gate="G$1" pin="LE" pad="19"/>
-<connect gate="G$1" pin="REFIN" pad="16"/>
-<connect gate="G$2" pin="CC" pad="12"/>
-<connect gate="G$2" pin="CN" pad="14"/>
-<connect gate="G$2" pin="L1" pad="9"/>
-<connect gate="G$2" pin="L2" pad="10"/>
-<connect gate="G$2" pin="RF+" pad="4"/>
-<connect gate="G$2" pin="RF-" pad="5"/>
-<connect gate="G$2" pin="VTUNE" pad="7"/>
-<connect gate="G$3" pin="AGND@0" pad="3"/>
-<connect gate="G$3" pin="AGND@1" pad="8"/>
-<connect gate="G$3" pin="AGND@2" pad="11"/>
-<connect gate="G$3" pin="AGND@3" pad="22"/>
-<connect gate="G$3" pin="AVDD" pad="2"/>
-<connect gate="G$3" pin="CPGND" pad="1"/>
-<connect gate="G$3" pin="DGND" pad="15"/>
-<connect gate="G$3" pin="DVDD" pad="21"/>
-<connect gate="G$3" pin="EXP" pad="EXP"/>
-<connect gate="G$3" pin="RSET" pad="13"/>
-<connect gate="G$3" pin="VVCO" pad="6"/>
+<connect gate="A" pin="CC" pad="12"/>
+<connect gate="A" pin="CN" pad="14"/>
+<connect gate="A" pin="L1" pad="9"/>
+<connect gate="A" pin="L2" pad="10"/>
+<connect gate="A" pin="RF+" pad="4"/>
+<connect gate="A" pin="RF-" pad="5"/>
+<connect gate="A" pin="VTUNE" pad="7"/>
+<connect gate="D" pin="CLK" pad="17"/>
+<connect gate="D" pin="CP" pad="24"/>
+<connect gate="D" pin="DATA" pad="18"/>
+<connect gate="D" pin="DIVOUT" pad="20"/>
+<connect gate="D" pin="LD" pad="23"/>
+<connect gate="D" pin="LE" pad="19"/>
+<connect gate="D" pin="REFIN" pad="16"/>
+<connect gate="P" pin="AGND@0" pad="3"/>
+<connect gate="P" pin="AGND@1" pad="8"/>
+<connect gate="P" pin="AGND@2" pad="11"/>
+<connect gate="P" pin="AGND@3" pad="22"/>
+<connect gate="P" pin="AVDD" pad="2"/>
+<connect gate="P" pin="CPGND" pad="1"/>
+<connect gate="P" pin="DGND" pad="15"/>
+<connect gate="P" pin="DVDD" pad="21"/>
+<connect gate="P" pin="EXP" pad="EXP"/>
+<connect gate="P" pin="RSET" pad="13"/>
+<connect gate="P" pin="VVCO" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
