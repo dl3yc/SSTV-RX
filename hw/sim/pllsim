@@ -1,0 +1,53 @@
+
+Design3 analysed at 03/07/14 16:56:05 
+ 
+PLL Chip is ADF4360-9 
+VCO is ADF4360-9 
+Reference is custom 
+ 
+VCO Divider Outside Loop: division ratio = 1 
+ 
+Frequency Domain Analysis of PLL 
+  Analysis at PLL output frequency of 290MHz 
+ 
+Phase Noise Table  
+Freq	Total	VCO	Ref	Chip	Filter 
+ 100 	-93.59 	-108.9 	--	-93.73 	-120.9  
+1.00k	-86.98 	-88.54 	--	-92.68 	-101.8  
+10.0k	-95.33 	-96.97 	--	-101.6 	-106.4  
+ 100k	-119.4 	-119.4 	--	-140.8 	-145.5  
+1.00M	-139.5 	-139.5 	--	-180.8 	-185.5  
+ 
+Reference Spurious 
+  Noise and Jitter Calculations include the first 10 ref spurs 
+  First three spurs:  -300 dBc   -300 dBc   -300 dBc 
+ 
+Fractional-N Spur Estimate (worst case) 
+ 
+Phase jitter using brick wall filter  
+  from 10.0kHz to  100kHz 
+  Phase Jitter   0.11 degrees rms
+ 
+ACP - Channel 1 
+  Channel 1 is centred 25.0kHz from carrier with bandwidth 15.0kHz 
+  Power in channel =  -63.7dBc
+ 
+       ----    End of Frequency Domain Results   ---- 
+ 
+Transient Analysis of PLL 
+  Frequency change from  288MHz to  292MHz 
+  Simulation run for 1.30ms 
+ 
+Frequency Locking 
+  Time to lock to 1.00kHz is  803us 
+  Time to lock to 10.0 Hz is 1.16ms 
+ 
+Phase Locking (VCO Output Phase) 
+  Time to lock to 10.0 deg is  823us 
+  Time to lock to 1.00 deg is 1.00ms 
+ 
+Lock Detect Threshold 
+  Lock Detect output did not pass 2.50 V 
+ 
+       ----    End of Time Domain Results   ---- 
+ 
