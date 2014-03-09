@@ -1,3 +1,3 @@
 [submodule "sw/fxload"]
-	path = sw/fxload
+	path = sw/testset/fxload
 	url = https://github.com/pbatard/fxload.git
