@@ -3,6 +3,10 @@ Testset for Local Oscillator ADF4360-9
 First you need:
  - LO-Board with ADF4360-x
  - USB-Board with Cypress FX2 with empty EEPROM
+ - Wiring between LO-Board and USB-Board:
+  - X3 LE --> PA0
+  - X2 Data --> PA2
+  - X1 CLK --> PA1
 
 1. install the [CY3684 EZ-USB FX2LP Development Kit](http://www.cypress.com/?rID=14321)
 2. install the [ADF4360-x Evaluation Board Software](http://www.analog.com/static/imported-files/eval_boards/ADF4360_Setup_v4_1_2.zip)
