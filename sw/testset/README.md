@@ -1,7 +1,7 @@
 Testset for Local Oscillator ADF4360-9
 =====
 First you need:
- - LO-Board with ADS4360-x
+ - LO-Board with ADF4360-x
  - USB-Board with Cypress FX2 with empty EEPROM
 
 1. install the [CY3684 EZ-USB FX2LP Development Kit](http://www.cypress.com/?rID=14321)
